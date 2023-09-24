@@ -234,5 +234,21 @@ footer i{
     .project__content__card{
         margin-bottom: 30px;
     }
+    .intro__item:last-child{
+        margin-bottom: 30px;
+    }
+    .project__content__item__text__btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .project__content__item__text__btn a{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .project__content__item__image{
+        display: none;
+    }
 }
 
