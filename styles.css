@@ -11,7 +11,7 @@ footer i{
 .banner{
     margin-top: 70px;
     padding: 20px 0;
-    background-color: #727272;
+    background-color: #3FA46C;
 }
 .banner__content{
     padding-left: 50px;
@@ -40,12 +40,12 @@ footer i{
     text-decoration: none;
     font-size: 17px;
     border-radius: 20px;
-    border: 3px solid #4957DD;
+    border: 3px solid #007B37;
     transition: all .3s ease-in;
 }
 .banner__content__btn a:hover{
     color: white;
-    background-color: #4957DD;;
+    background-color: #007B37;;
 }
 .banner__image img{
     width: 100%;
@@ -53,7 +53,7 @@ footer i{
 }
 .skills{
     padding: 20px 0;
-    background-color: #727272;
+    background-color: #3FA46C;
 }
 .skill__title h1{
     text-align: center;
@@ -98,7 +98,7 @@ footer i{
 .contact{
     padding: 30px 0;
     margin-bottom: -20px;
-    background-color: #E0E5E9;
+    background-color: #3FA46C;
 }
 .contact__desc{
     text-align: center;
@@ -126,14 +126,17 @@ footer i{
 .project__content__item{
     padding: 20px 40px;
     border-radius: 20px;
-    border: 1.5px solid #727272;
+    border: 1.5px solid;
     margin: 20px 0;
+    background-color: #ECF8EF;
+    border-color: rgba(0, 0, 0, 0.12);
 }
 .project__content__item__text{
 
 }
 .project__content__item__text__title{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.12);
 }
 .project__content__item__text__title h2{
     font-weight: 600;
@@ -155,13 +158,13 @@ footer i{
     text-decoration: none;
     font-size: 17px;
     border-radius: 20px;
-    border: 3px solid #4957DD;
+    border: 3px solid #007B37;
     transition: all .3s ease-in;
 }
 .project__content__item__text__btn a:hover,
 .project__btn a:hover{
     color: white;
-    background-color: #4957DD;
+    background-color: #007B37;
 }
 .project__content__item__image img{
     width: 100%;
@@ -210,6 +213,12 @@ footer i{
 .contact__list li{
     margin: 0 10px;
     font-size: 25px;
+}
+.contact__list i {
+    transition: all .2s ease-in;
+}
+.contact__list a:hover i {
+    color: white;
 }
 
 
